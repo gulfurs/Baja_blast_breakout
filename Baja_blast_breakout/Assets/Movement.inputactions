@@ -1,0 +1,67 @@
+{
+    "name": "Movement",
+    "maps": [
+        {
+            "name": "Move",
+            "id": "ea769355-91af-4b6d-8176-a8e21ee4e6a8",
+            "actions": [
+                {
+                    "name": "WASD",
+                    "type": "Button",
+                    "id": "6542e3ca-8f1f-4207-b759-d4c80331a4d6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "26254d7b-3980-41cc-b528-052c80306e9c",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WASD",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e0dd86e0-df0d-4de2-8eab-b28bfe9bb73e",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WASD",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a7e5055c-4f9e-46bc-bc84-c1d22c2666a5",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WASD",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2de3b888-8cd4-46ac-804b-ad97e736adc5",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WASD",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
