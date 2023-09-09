@@ -6,7 +6,9 @@ using UnityEngine.InputSystem;
 public class playerControl : MonoBehaviour
 
 {
-    public float moveSpeed = 5.0f; // Adjust the speed as needed
+    public float moveSpeed = 5f; 
+
+    public float limit = 10f;
 
     void Update()
     {
@@ -16,9 +18,14 @@ public class playerControl : MonoBehaviour
 
         // Calculate the movement direction
         Vector3 moveDirection = new Vector3(horizontalInput, 0.0f, verticalInput).normalized;
+        Vector3 newPosition = transform.position + moveDirection * moveSpeed * Time.deltaTime;
+
+        newPosition.x = Mathf.Clamp(newPosition.x, -limit, limit);
+        newPosition.z = Mathf.Clamp(newPosition.z, -limit, limit);
 
         // Move the object in the plane
-        transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
+        transform.position = newPosition;
+        
     }
 }
 
