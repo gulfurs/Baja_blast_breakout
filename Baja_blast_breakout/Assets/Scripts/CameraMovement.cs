@@ -6,6 +6,13 @@ public class CameraMovement : MonoBehaviour
 {
    public float speed = 1f;
    public bounce scorescript;
+
+   private AudioSource music;
+
+   void start(){
+    music = GetComponent<AudioSource>();
+    music.Play();
+   }
    
     void Update()
     {
