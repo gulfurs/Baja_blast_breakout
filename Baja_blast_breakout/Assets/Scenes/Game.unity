@@ -1297,7 +1297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4655999bd671ebd4db56fd971263bc84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bounceForce: 30
+  bounceForce: 50
   scoreText: {fileID: 891898203}
   livesText: {fileID: 1443105430}
   score: 0
