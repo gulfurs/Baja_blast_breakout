@@ -37,7 +37,7 @@ public class bounce : MonoBehaviour
         
           if (collision.gameObject.CompareTag("Ground")){
               lives--;
-              Vector3 Respawnpos = new Vector3 (0f, 15f, 0f);
+              Vector3 Respawnpos = new Vector3 (Random.Range(2f, -2f), 15f, Random.Range(2f, -2f));
               transform.position = Respawnpos;
               livesText.text = "Lives : " + lives;
           }

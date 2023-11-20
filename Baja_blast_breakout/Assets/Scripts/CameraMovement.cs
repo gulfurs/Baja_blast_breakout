@@ -8,7 +8,6 @@ public class CameraMovement : MonoBehaviour
    public bounce scorescript;
 
    private AudioSource music;
-
    void start(){
     music = GetComponent<AudioSource>();
     music.Play();

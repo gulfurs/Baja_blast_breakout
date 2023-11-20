@@ -10,11 +10,8 @@ public class ScoreUI : MonoBehaviour
     //public bounce scorescript;
     private int saveScore; 
     
-    void Start()
-    {
+    void Start(){
         saveScore = PlayerPrefs.GetInt("Score", 0);
-        
-         
     }
     void Update(){
         scoreText.text = "Score : " + saveScore;
